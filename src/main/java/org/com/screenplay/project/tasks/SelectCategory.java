@@ -26,7 +26,7 @@ public class SelectCategory implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         Target target = navBarElement(nameOfCategory);
-        actor.attemptsTo(WaitUntil.the(target, isEnabled()).forNoMoreThan(5).seconds(),
+        actor.attemptsTo(WaitUntil.the(target, isEnabled()).forNoMoreThan(2).seconds(),
                 Click.on(target));
     }
 

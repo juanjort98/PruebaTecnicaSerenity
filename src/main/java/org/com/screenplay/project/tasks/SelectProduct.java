@@ -29,6 +29,7 @@ public class SelectProduct implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        System.out.println("Selected option: " + option);
         Target product = productOption(option);
         Target cartButton = addCartButton(option);
         actor.attemptsTo(

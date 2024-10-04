@@ -12,5 +12,7 @@
     Scenario: Add a product from a specific category to the shopping cart
       Given Juan selects a category in the navigation bar
       When Adds a product from the selected category to the shopping cart
-      Then Should see the product's name in the shopping cart view
+      And  Goes back to the product selection view to add a new product
+      Then Should see the added product's name in the shopping cart view
+
 

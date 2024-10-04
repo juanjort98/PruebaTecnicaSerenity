@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Open a web page" skipped="0" tests="1" time="21.2" timestamp="2024-10-04 04:11:47"><testcase name="Add a product from a specific category to the shopping cart"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Open a web page" skipped="0" tests="1" time="26.13" timestamp="2024-10-04 06:31:58"><testcase name="Add a product from a specific category to the shopping cart"><failure message="Expected validate product code&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validate product code&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;</failure><system-err>Expected validate product code&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;&#13;
+org.com.screenplay.project.stepdefinition.OpenWebStep.shouldSeeTheAddedProductSNameInTheShoppingCartView(OpenWebStep.java:58)&#13;
+✽.Should see the added product's name in the shopping cart view(file:///C:/Users/juanj/IdeaProjects/baseConfig/src/test/resources/features/openweb.feature:16)&#13;
+</system-err></testcase></testsuite>
